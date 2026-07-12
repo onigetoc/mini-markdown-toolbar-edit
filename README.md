@@ -2,6 +2,10 @@
 
 A self-contained, single-file HTML markdown editor with a rich toolbar and **smart cursor detection** — designed for quick editing directly in the browser.
 
+## Why i did this?
+
+Existing markdown toolbars require selecting text before formatting, which slows down editing. This toolbar was built to solve that: place the cursor on a word, click a button, and the formatting is applied instantly. No selection needed for single words, fast to implement in any markdown editor (if not ask AI to implement it ✨😊).
+
 ## Features
 
 - **Text formatting**: Bold, Italic, Strikethrough, Underline, Heading (cycle through levels)

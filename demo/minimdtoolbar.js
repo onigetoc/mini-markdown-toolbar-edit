@@ -156,6 +156,7 @@ mdToolbar._editor = editor;
             if (visW <= avail)
                 break;
         }
+        hidden.reverse();
         // Hide trailing or orphaned separators
         for (let si = 0; si < children.length; si++) {
             const c = children[si];
