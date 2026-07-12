@@ -1,6 +1,6 @@
-# Mini Markdown Toolbar — Smart Select
+# Mini Markdown Toolbar - Smart Select
 
-A self-contained, single-file HTML markdown editor with a rich toolbar and **smart cursor detection** — designed for quick editing directly in the browser.
+A self-contained, single-file HTML markdown editor with a rich toolbar and **smart cursor detection** - designed for quick editing directly in the browser.
 
 ## Why i did this?
 
@@ -19,10 +19,10 @@ Existing markdown toolbars require selecting text before formatting, which slows
 - **Extras**: Table, Highlight (==), Tag (#), Mention (@)
 - **Undo/Redo** with configurable history
 - **Dark/Light theme** toggle
-- **Responsive overflow** — buttons that don't fit the toolbar slide into a "More options" dropdown
-- **Smart Select** — place the cursor on a word and click; no need to select first
-- **Keyboard accessible** — full keyboard navigation with arrow keys
-- **Single file** — no dependencies, no build step
+- **Responsive overflow** - buttons that don't fit the toolbar slide into a "More options" dropdown
+- **Smart Select** - place the cursor on a word and click; no need to select first
+- **Keyboard accessible** - full keyboard navigation with arrow keys
+- **Single file** - no dependencies, no build step
 
 ## Usage
 
@@ -53,11 +53,11 @@ Open `mini-markdown-editor-toolbar-all-in-one.html` in any modern browser.
 | ↪ | Ctrl+Y | Redo |
 | ☀/☾ | | Toggle light/dark theme |
 
-Most buttons toggle on/off — applying the formatting if not present, removing it if already applied.
+Most buttons toggle on/off - applying the formatting if not present, removing it if already applied.
 
 ### Smart cursor behavior
 
-Unlike most markdown toolbars that require a text selection, this toolbar works with just a **cursor position** — it intelligently detects the current word boundaries and applies formatting automatically. For multi-word formatting, simply select the text as usual. This makes editing significantly faster: place the cursor on a word, click a button, and the formatting is applied instantly without needing to select first.
+Unlike most markdown toolbars that require a text selection, this toolbar works with just a **cursor position** - it intelligently detects the current word boundaries and applies formatting automatically. For multi-word formatting, simply select the text as usual. This makes editing significantly faster: place the cursor on a word, click a button, and the formatting is applied instantly without needing to select first.
 
 ## How it works
 
@@ -72,7 +72,7 @@ The toolbar uses GitHub's [`<markdown-toolbar>`](https://github.com/github/markd
 
 ### Use in other frameworks (React, Vue, Svelte, etc.)
 
-The toolbar uses vanilla custom elements (`<md-bold>`, `<md-italic>`, etc.) — they work natively in any framework without a wrapper. Just drop the `<markdown-toolbar>` component into your template and import the JS logic.
+The toolbar uses vanilla custom elements (`<md-bold>`, `<md-italic>`, etc.) - they work natively in any framework without a wrapper. Just drop the `<markdown-toolbar>` component into your template and import the JS logic.
 
 To port the toolbar to a specific framework, paste the source into an AI assistant and ask it to generate a component for your framework of choice (the logic is self-contained and framework-agnostic).
 
