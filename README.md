@@ -1,4 +1,4 @@
-# GC Mini Markdown Toolbar
+# Mini Markdown Toolbar
 
 A self-contained, single-file HTML markdown editor with a rich toolbar — designed for quick editing directly in the browser.
 
