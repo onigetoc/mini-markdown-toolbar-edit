@@ -4,11 +4,11 @@ A self-contained, single-file HTML markdown editor with a rich toolbar and **sma
 
 ## Why i did this?
 
-Existing markdown toolbars require selecting text before formatting, which slows down editing. This toolbar was built to solve that: place the cursor on a word, click a button, and the formatting is applied instantly. No selection needed for single words, fast to implement in any markdown editor (if not ask AI to implement it ✨😊).
+Existing markdown toolbars require selecting text before formatting, which slows down editing. This toolbar was built to solve that: place the cursor on a word, click a button, and the formatting is applied instantly. No selection needed for single words, fast to implement in any markdown editor (if not, ask AI to implement it ✨😊).
 
-![Demo GIF](https://raw.githubusercontent.com/onigetoc/GC-Mini-Markdown-Toolbar/refs/heads/main/publics/mini-markdown-toolbar.gif)
+![Demo GIF](https://raw.githubusercontent.com/onigetoc/Mini-Markdown-Toolbar/refs/heads/main/publics/mini-markdown-toolbar.gif)
 
-[**Try the live demo →**](https://raw.githack.com/onigetoc/GC-Mini-Markdown-Toolbar/main/demo/minimdtoolbar.html)
+[**Try the live demo →**](https://raw.githack.com/onigetoc/Mini-Markdown-Toolbar/main/demo/minimdtoolbar.html)
 
 ## Features
 
