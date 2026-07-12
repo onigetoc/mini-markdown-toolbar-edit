@@ -1,6 +1,6 @@
-# Mini Markdown Toolbar
+# Mini Markdown Toolbar — Smart Select
 
-A self-contained, single-file HTML markdown editor with a rich toolbar — designed for quick editing directly in the browser.
+A self-contained, single-file HTML markdown editor with a rich toolbar and **smart cursor detection** — designed for quick editing directly in the browser.
 
 ## Features
 
@@ -12,6 +12,7 @@ A self-contained, single-file HTML markdown editor with a rich toolbar — desig
 - **Undo/Redo** with configurable history
 - **Dark/Light theme** toggle
 - **Responsive overflow** — buttons that don't fit the toolbar slide into a "More options" dropdown
+- **Smart Select** — place the cursor on a word and click; no need to select first
 - **Keyboard accessible** — full keyboard navigation with arrow keys
 - **Single file** — no dependencies, no build step
 
@@ -45,6 +46,10 @@ Open `mini-markdown-editor-toolbar-all-in-one.html` in any modern browser.
 | ☀/☾ | | Toggle light/dark theme |
 
 Most buttons toggle on/off — applying the formatting if not present, removing it if already applied.
+
+### Smart cursor behavior
+
+Unlike most markdown toolbars that require a text selection, this toolbar works with just a **cursor position** — it intelligently detects the current word boundaries and applies formatting automatically. For multi-word formatting, simply select the text as usual. This makes editing significantly faster: place the cursor on a word, click a button, and the formatting is applied instantly without needing to select first.
 
 ## How it works
 
