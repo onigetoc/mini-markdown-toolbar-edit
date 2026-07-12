@@ -2,6 +2,12 @@
 
 A self-contained, single-file HTML markdown editor with a rich toolbar and **smart cursor detection** — designed for quick editing directly in the browser.
 
+[![Live Demo](https://raw.githubusercontent.com/onigetoc/GC-Mini-Markdown-Toolbar/refs/heads/main/publics/mini-md-editor-responsive.png)](https://raw.githack.com/onigetoc/GC-Mini-Markdown-Toolbar/main/demo/minimdtoolbar.html)
+
+![Demo GIF](https://raw.githubusercontent.com/onigetoc/GC-Mini-Markdown-Toolbar/refs/heads/main/publics/mini-markdown-toolbar.gif)
+
+[**Try the live demo →**](https://raw.githack.com/onigetoc/GC-Mini-Markdown-Toolbar/main/demo/minimdtoolbar.html)
+
 ## Why i did this?
 
 Existing markdown toolbars require selecting text before formatting, which slows down editing. This toolbar was built to solve that: place the cursor on a word, click a button, and the formatting is applied instantly. No selection needed for single words, fast to implement in any markdown editor (if not ask AI to implement it ✨😊).
